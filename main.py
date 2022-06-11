@@ -31,6 +31,6 @@ class ThisAPP:
 if __name__ == "__main__":
     email = input("[ ? ] Your Email -> ")
     firstname = input("[ ? ] First Name (any) -> ")
-    with open("usernames.txt") as usersfile:
+    with open("available.txt") as usersfile:
         for username in usersfile:
             ThisAPP.Create(username, email, firstname)
