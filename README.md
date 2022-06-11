@@ -20,7 +20,7 @@
   <h2 align="center">this. - Mass Username Claimer</h2>
 
   <p align="center">
-    A simple username claimer for "this." (<b> created by me </b>)
+    A simple username claimer and checker for "this." (<b> created by me + checker by https://github.com/xtekky </b>)
     <br />
     <br />
     <a href="https://discord.gg/hbo">🌌 Discord</a>
@@ -36,6 +36,8 @@
 ---------------------------------------
 
 ### ⚙️ Setup
+> Run Checker To Get List Of Usernames Then Run Main To Claim Them.
++ `python3 checker.py`
 + `python3 main.py`
 
 ---------------------------------------
