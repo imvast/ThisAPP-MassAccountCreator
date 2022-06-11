@@ -12,7 +12,7 @@ class ThisAPP:
             "accept": "*/*",
             "accept-encoding": "gzip, deflate, br",
             "accept-language": "en-US,en;q=0.9",
-            "content-type": "application/json",
+            #"content-type": "application/json",
             "origin": "https://thisapp.com",
             "referer": "https://thisapp.com/",
             "sec-fetch-dest": "empty",
