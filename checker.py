@@ -2,7 +2,7 @@ import threading, random, requests
 
 
 def check():
-    _username = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=4))
+    _username = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=3))
     _check = requests.post(
         "https://api.ws.thisapp.so/graphql",
         json={
