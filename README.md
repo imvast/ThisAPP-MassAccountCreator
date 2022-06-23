@@ -9,6 +9,10 @@
   
 ---------------------------------------
 
+<h1 align="center">
+**NO LONGER WORKS -- requires captcha and i dont feel like implementing because nobody uses this anyway**
+</h1>
+  
 <br/>
 <div align="center">
   <kbd>
