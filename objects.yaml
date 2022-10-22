@@ -1,0 +1,228 @@
+# Pluggable ONNX model
+# onnx_prefix:
+#   zh: ["zh_prompt_label"]
+#   en: ["en_prompt_label"]
+label_alias:
+  seaplane:
+    zh: [ "水上飞机" ]
+    en: [ "seaplane" ]
+  bedroom:
+    zh: [ "卧室" ]
+    en: [ "bedroom" ]
+  bridge:
+    zh: [ "桥梁" ]
+    en: [ "bridge" ]
+  domestic_cat:
+    zh: [ "家猫", "猫" ]
+    en: [ "domestic cat", "cat" ]
+  living_room:
+    zh: [ "客厅" ]
+    en: [ "living room" ]
+  conference_room:
+    zh: [ "会议室" ]
+    en: [ "conference room" ]
+  elephant_made_of_clouds:
+    zh: [ "由云制成的大象" ]
+    en: [ "elephant made of clouds" ]
+  parrot:
+    zh: [ "鹦鹉" ]
+    en: [ "parrot" ]
+
+  lion:
+    zh: [ "狮子" ]
+    en: [ "lion" ]
+  lion_with_mane_on_its_neck:
+    zh: [ "一只脖子上有鬃毛的狮子", "雄狮" ]
+    en: [ "lion with mane on its neck", "male lion" ]
+  lion_with_open_eyes:
+    zh: [ "睁开眼睛的狮子" ]
+    en: [ "lion with open eyes" ]
+  lion_with_closed_eyes:
+    zh: [ "一只闭着眼睛的狮子" ]
+    en: [ "lion with closed eyes" ]
+  lion_with_an_open_mouth:
+    zh: [ "张开嘴的狮子" ]
+    en: [ "lion with an open mouth" ]
+  lion_with_a_closed_mouth:
+    zh: [ "一只闭着嘴的狮子" ]
+    en: [ "lion with a closed mouth" ]
+  female_lion:
+    zh: [ "雌狮" ]
+    en: [ "female lion" ]
+
+  horse_made_of_clouds:
+    zh: [ "一匹由云制成的马" ]
+    en: [ "horse made of clouds" ]
+  horse_facing_to_the_left:
+    zh: [ "朝左马" ]
+    en: [ "horse facing to the left" ]
+  horse_facing_to_the_right:
+    zh: [ "面向右侧的马" ]
+    en: [ "horse facing to the right" ]
+  horse_with_white_legs:
+    zh: [ "白腿马" ]
+    en: [ "horse with white legs" ]
+  horse_walking_or_running:
+    zh: [ "马在行走或奔跑","马步行或奔跑" ]
+    en: [ "horse walking or running" ]
+
+  smiling_dog:
+    zh: [ "微笑狗" ]
+    en: [ "smiling dog" ]
+  dog_with_a_collar_on_its_neck:
+    zh: [ "一条脖子上有项圈的狗" ]
+    en: [ "dog with a collar on its neck" ]
+
+  kitten:
+    zh: [ "小猫", "一只小猫" ]
+    en: [ "kitten", "baby cat" ]
+  adult_cat:
+    zh: [ "成年猫" ]
+    en: [ "adult cat" ]
+  cat_with_long_hair:
+    zh: [ "长毛猫", "厚毛猫" ]
+    en: [ "cat with long hair", "cat with thick fur" ]
+  cat_with_short_hair:
+    zh: [ "短毛猫" ]
+    en: [ "cat with short hair" ]
+
+  bird_flying:
+    zh: [ "一只飞翔的鸟" ]
+    en: [ "bird flying" ]
+  bird_on_a_branch:
+    zh: [ "树枝上的鸟","一只蜂鸟在树枝上" ]
+    en: [ "bird on a branch","hummingbird on a tree branch" ]
+
+  broken_glass_bottle:
+    zh: [ "破碎玻璃瓶" ]
+    en: [ "broken glass bottle" ]
+  whole_glass_bottle:
+    zh: [ "整个玻璃瓶" ]
+    en: [ "whole glass bottle" ]
+  porcelain_teacup:
+    zh: [ "类似瓷器设" , "类似瓷器设计图案的茶杯" ]
+    en: [ "teacup with similar porcelain design pattern" ]
+
+  fish_jumping_over_the_water:
+    zh: [ "鱼跃过水面" ]
+    en: [ "fish jumping over the water" ]
+  fish_underwater:
+    zh: [ "水下鱼" ]
+    en: [ "fish underwater" ]
+
+  dog_shaped_cookie:
+    zh: [ "狗形饼干" ]
+    en: [ "dog-shaped cookie" ]
+  cat_shaped_cookie:
+    zh: [ "猫形饼干" ]
+    en: [ "cat-shaped cookie" ]
+
+  flower_in_a_vase:
+    zh: [ "花瓶中的花" ]
+    en: [ "flower in a vase" ]
+  plant_hanging_from_the_ceiling:
+    zh: [ "悬挂在天花板上的植物" ]
+    en: [ "plant hanging from the ceiling" ]
+  plant_on_the_table:
+    zh: [ "植物" , "桌子上包含植物" ]
+    en: [ "plant on the table" ]
+  dead_and_dried_plant_in_the_pot:
+    zh: [ "花盆中枯死和干燥植物" ]
+    en: [ "dead and dried plant in the pot" ]
+
+  toy_rabbit:
+    zh: [ "玩具兔子" ]
+    en: [ "toy rabbit" ]
+  rabbit_in_the_grass:
+    zh: [ "草丛中包含兔子" ]
+    en: [ "rabbit in the grass" ]
+  rabbit:
+    zh: [ "兔子" ]
+    en: [ "rabbit" ]
+  rabbit_swimming_in_water:
+    zh: [ "兔子在水中游泳" ]
+    en: [ "rabbit swimming in water" ]
+  turtle:
+    zh: [ "海龟" ]
+    en: [ "turtle" ]
+  turtle_under_the_water:
+    zh: [ "水下乌龟" ]
+    en: [ "turtle under the water" ]
+  toy_turtle:
+    zh: [ "玩具乌龟" ]
+    en: [ "toy turtle" ]
+  turtle_in_the_grass:
+    zh: [ "草丛中包含乌龟" ]
+    en: [ "turtle in the grass" ]
+  duck:
+    zh: [ "鸭子" ]
+    en: [ "duck" ]
+  house_covered_in_snow:
+    zh: [ "被雪覆盖的房子" ]
+    en: [ "house covered in snow" ]
+  toy_house:
+    zh: [ "玩具屋" ]
+    en: [ "toy house" ]
+  duck_in_the_water:
+    zh: [ "水中鸭子" , "水中鸭子的图像" ]
+    en: [ "duck in the water" ]
+  house:
+    zh: [ "房子" ]
+    en: [ "house" ]
+  cactus:
+    zh: [ "仙人掌" ]
+    en: [ "cactus" ]
+  penguin_surrounded_by_flowers:
+    zh: [ "被鲜花包围的企鹅" , "被鲜" ]
+    en: [ "penguin surrounded by flowers" ]
+  penguin:
+    zh: [ "企鹅" ]
+    en: [ "penguin" ]
+  penguin_behind_rocks:
+    zh: [ "岩石后面企鹅" ]
+    en: [ "penguin behind rocks" ]
+  house_in_the_beach:
+    zh: [ "海滩上的房子","海滩房屋" ]
+    en: [ "house in the beach" ]
+  penguin_on_ice:
+    zh: [ "冰上企鹅" ]
+    en: [ "penguin on ice" ]
+  cactus_in_the_sand:
+    zh: [ "沙滩上的仙人掌", "沙中仙人掌" ]
+    en: [ "cactus in the sand" ]
+  cactus_in_a_pot:
+    zh: [ "盆中仙人掌" ]
+    en: [ "cactus in a pot" ]
+  bee_flying_near_a_flower:
+    zh: [ "蜜蜂在花朵附近飞翔" ]
+    en: [ "bee flying near a flower" ]
+  hat:
+    zh: [ "人们通常戴在头上的物品", "人们通常戴在头上" ]
+    en: [ "item that a person normally wears on their head" ]
+  shoes:
+    zh: [ "人们通常脚上穿着的物品" ]
+    en: [ "item that a person normally wears on their feet" ]
+  belt:
+    zh: [ "人们通常穿在裤子上的物品" ]
+    en: [ "item that a person normally wears on their pants" ]
+  dangerous_sea:
+    zh: [ "危险海域","危险海洋" ]
+    en: [ "dangerous sea" ]
+  calm_sea:
+    zh: [ "平静海域","平静海洋","平静海面" ]
+    en: [ "calm sea" ]
+  hot_food:
+    zh: [ "热食" ] # await
+    en: [ "hot food" ]
+  cold_drink:
+    zh: [ "冷饮","冰杯" ] # await
+    en: [ "cold drink", "glass with ice" ]
+  jellyfish:
+    zh: [ "水母" ] #await
+    en: [ "jellyfish" ]
+  shark:
+    zh: [ "鲨鱼" ] #await
+    en: [ "shark" ]
+  cup_of_coffee:
+    zh: [ "一杯咖啡" ]
+    en: [ "cup_of_coffee" ]

@@ -10,7 +10,7 @@
 ---------------------------------------
 
 <h1 align="center">
-**NO LONGER WORKS -- requires captcha and i dont feel like implementing because nobody uses this anyway**
+Unpatched @ 10/21/2022
 </h1>
   
 <br/>
@@ -27,7 +27,7 @@
     A simple username claimer and checker for "this." (<b> created by me + checker by https://github.com/xtekky </b>)
     <br />
     <br />
-    <a href="https://discord.gg/hbo">🌌 Discord</a>
+    <a href="https://skiddos.t.me">🌌 Telegram</a>
     ·
     <a href="https://github.com/imvast/ThisAPP-MassAccountCreator#-changelog">📜 ChangeLog</a>
     ·
@@ -70,6 +70,11 @@
 ### 📜 ChangeLog
 
 ```diff
+v0.1.0 ⋮ 10/21/2022
++ Unpatched both checker and creator
++ Huge Improvement To UI
+
+
 v0.0.1 ⋮ 6/10/2022
 + Uploaded First Version
 ```
